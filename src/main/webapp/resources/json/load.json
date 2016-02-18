@@ -1,0 +1,78 @@
+{
+	"Sentiment": {
+		"positive": {
+			"count": 5000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"negative": {
+			"count": 3000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		}
+	},
+	"Source": {
+		"facebook": {
+			"count": 3000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"twitter": {
+			"count": 2000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"mouthshut": {
+			"count": 4000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		}
+	},
+	"Issues": {
+		"Gear Problems": {
+			"count": 4000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"Engine Knocking": {
+			"count": 2000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"Power Windows": {
+			"count": 3000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		}
+	},
+	"Adjectives": {
+		"Space Inside": {
+			"count": 2000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"Looks": {
+			"count": 4000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"Reliability": {
+			"count": 3000,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		}
+	},
+	"Type": {
+		"Petrol": {
+			"count": 3540,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"Diesel": {
+			"count": 1320,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		}
+	},
+	"Average": {
+		"Real": {"City" : 13.0 , "Highway" : 18.0},
+		"On - Paper": {"City" : 19.0 , "Highway" : 22.0}
+	},
+	"Dealer Mention": {
+		"Dealer 1": {
+			"count": 3540,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		},
+		"Dealer 2": {
+			"count": 1320,
+			"posts": [{"location:" : "Mumbai", "post": "post 1"}, {"location:" : "Bangalore", "post": "post 2"}, {"location:" : "Chennai", "post": "post 3"}]
+		}
+	}
+}

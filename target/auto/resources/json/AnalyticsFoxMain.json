@@ -1,0 +1,43 @@
+{
+"image": "http://imgd1.aeplcdn.com/589x331/cw/ec/19829/Maruti-Suzuki-Celerio-Driving-56107.jpg?wm=1",
+	"Company": "Maruti Suzuki",
+	"Brand": "Celerio",
+	"Description": "Launched in February 2014,the Celerio has played a pivotal role in strengthening  Maruti Suzuki’s position in the entry-level hatchback segment in India.It mainly plugs the gap between the Wagon R and the Ritz with its practical interior and a decent equipment list.The Celerio is available in both petrol and a diesel variant with the latter getting Maruti’s all-new DDiS 125 2-cylinder diesel engine.",
+	"Sentiment": {
+		"positive": 5000,
+		"negative": 3000
+	},
+	"Source": {
+		"facebook": 3000,
+		"twitter": 2000,
+		"mouthshut": 4000
+	},
+	"Issues": {
+		"GearProblems": 4000,
+		"EngineKnocking": 2000,
+		"PowerWindows": 3000
+	},
+	"Adjectives": {
+		"Space Inside": 2000,
+		"Looks": 4000,
+		"Reliability": 3000
+	},
+	"Type": {
+		"Petrol": 3540,
+		"Diesel": 1320
+	},
+	"Average": {
+		"Real": {
+			"City": 13.0,
+			"Highway": 18.0
+		},
+		"On - Paper": {
+			"City": 19.0,
+			"Highway": 22.0
+		}
+	},
+	"Dealer Mention": {
+		"Dealer 1": 3540,
+		"Dealer 2": 1320
+	}
+}
