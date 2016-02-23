@@ -1,4 +1,4 @@
-
+var ctx = '<%=request.getContextPath()%>';
 $(function() {
     $( ".column" ).sortable({
       connectWith: ".column",
@@ -23,11 +23,11 @@ $(function() {
  
 
 $(document).ready(function() {
-	
+	var jsonUrl=ctx+"/resources/json/data1.json";
 	var dialogText;
 	$( "#onClickOpenDialog" ).click(function() {
 		$.ajax({
-        url: "http://localhost:8080/auto/resources/json/data1.json",
+        url: jsonUrl,
         dataType: "json",
         success: function(data) {
             console.log(data);
@@ -51,8 +51,8 @@ $( "#dialog" ).dialog();
 
 
 
-
-$.getJSON("http://localhost:8080/auto/resources/json/AnalyticsFoxMain.json", function(json) {
+var jsonUrl1=ctx+"/resources/json/AnalyticsFoxMain.json";
+$.getJSON(jsonUrl1, function(json) {
     console.log(json); // this will show the info it in firebug console
 	
 	window.onload = function () {
